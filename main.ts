@@ -112,7 +112,7 @@ export default class WorldMapPlugin extends Plugin {
         if (countries.includes(feature.properties.name)) {
           return { color: this.settings.highlightColor, weight: 1 };
         } else {
-          return { color: '#e3e3e3', weight: 1 };
+          return { color: '#e3e3e3', weight: 0 };
         }
       });
     });
