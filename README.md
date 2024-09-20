@@ -1,10 +1,10 @@
 # Obsidian Scratch Map
 
-The Obsidian Scratch Map plugin allows you display a world map embeded in the note with specified countries highlighted.
-Perfect for marking visitied countries during your trips.
+The Obsidian Scratch Map plugin allows you display a world map embeded in the note with specified countries highlighted.  
+Perfect for marking visitied countries during your trips.  
 
 <p align="center">
-  <img src="media/screenshot_1.png" img width=60%></br></br>
+  <img src="media/screenshot_1.png" img width=80%></br></br>
 </p>
 
 ## Installation
