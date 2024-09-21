@@ -87,7 +87,7 @@ export default class WorldMapPlugin extends Plugin {
       if (countries.includes(feature.properties.name)) {
         return { color: this.settings.highlightColor, weight: 1 }; // Use highlight color from settings
       } else {
-        return { color: '#e3e3e3', weight: 1 }; // Default color
+        return { color: '#e3e3e3', weight: 0 }; // Default color
       }
     };
 
@@ -132,10 +132,10 @@ class WorldMapSettingTab extends PluginSettingTab {
 
     containerEl.empty();
 
-    containerEl.createEl('h2', { text: 'Scratch Map Settings' });
+    containerEl.createEl('h2', { text: 'General Settings' });
 
     new Setting(containerEl)
-      .setName('Highlight Color')
+      .setName('Highlight color')
       .setDesc('Choose the color to highlight countries with')
       .addText((text) => {
         // Set the input type to 'color' to use a color picker

@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-scratch-map",
 	"name": "Scratch Map",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Displays a world map with specified countries highlighted",
 	"author": "MattSzymonski",
