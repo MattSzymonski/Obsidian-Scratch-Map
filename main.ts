@@ -71,8 +71,7 @@ export default class WorldMapPlugin extends Plugin {
 
     // Create a div to hold the map
     const mapDiv = el.createDiv();
-    mapDiv.style.width = '100%';
-    mapDiv.style.height = '500px';
+    mapDiv.classList.add('map-container'); // Apply the CSS class
 
     // Initialize the map
     const map = L.map(mapDiv).setView([20, 0], 2);

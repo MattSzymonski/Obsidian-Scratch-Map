@@ -12,8 +12,9 @@ If your plugin does not need CSS, delete this file.
   height: 500px;
 }
 
-.xxx {
-  background-color: red;
+.map-container {
+	width: 100%;
+	height: 500px;
 }
 
 /* required styles */
